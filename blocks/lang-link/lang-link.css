@@ -1,0 +1,16 @@
+.lang-link {
+    text-decoration: none;
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.lang-link:nth-of-type(1){
+    margin-right: 18px;
+    text-decoration: underline;
+}
