@@ -1,0 +1,6 @@
+.place {
+    margin-top: 80px;
+    display: grid;
+    grid-template-areas: "title link" "image paragraph" "image text";
+    grid-auto-flow: dense;
+}
