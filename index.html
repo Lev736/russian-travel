@@ -64,18 +64,66 @@
                 Аэропортов 241</p>
         </section>
         <section class="photo-grid">
-            <img class="photo-grid__item" src="./images/__item.jpg" alt="поезд">
-            <img class="photo-grid__item" src="./images/__item (1).jpg" alt="Горы с облаками">
-            <img class="photo-grid__item" src="./images/__item (2).jpg" alt="туман">
-            <img class="photo-grid__item" src="./images/__item (3).jpg" alt="Сочи">
-            <img class="photo-grid__item" src="./images/__item (4).jpg" alt="Лед">
-            <img class="photo-grid__item" src="./images/__item (5).jpg" alt="Байкал">
-            <img class="photo-grid__item" src="./images/__item (6).jpg" alt="Эльбрус">
-            <img class="photo-grid__item" src="./images/__item (7).jpg" alt="Пешеходка">
-            <img class="photo-grid__item" src="./images/__item (8).jpg" alt="Камчатка">
-            <img class="photo-grid__item" src="./images/__item (9).jpg" alt="Камчатка2">
-            <img class="photo-grid__item" src="./images/__item (10).jpg" alt="Байкал2">
-            <img class="photo-grid__item" src="./images/__item (11).jpg" alt="Эргаки">
+            <picture>
+                <source media="(max-width: 1023px)" srcset="./images/__item_3x.jpg">
+                <source media="(min-width: 1024px)" srcset="./images/__item.jpg">
+                <img class="photo-grid__item" src="./images/__item.jpg" alt="поезд">
+            </picture>
+            <picture>
+                <source media="(max-width: 1023px)" srcset="./images/__item_3x (1).jpg">
+                <source media="(min-width: 1024px)" srcset="./images/__item (1).jpg">
+                <img class="photo-grid__item" src="./images/__item (1).jpg" alt="Горы с облаками">
+            </picture>
+            <picture>
+                <source media="(max-width: 1023px)" srcset="./images/__item_3x (2).jpg">
+                <source media="(min-width: 1024px)" srcset="./images/__item (2).jpg">
+                <img class="photo-grid__item" src="./images/__item (2).jpg" alt="туман">
+            </picture>
+            <picture>
+                <source media="(max-width: 1023px)" srcset="./images/__item_3x (3).jpg">
+                <source media="(min-width: 1024px)" srcset="./images/__item (3).jpg">
+                <img class="photo-grid__item" src="./images/__item (3).jpg" alt="Сочи">
+            </picture>
+            <picture>
+                <source media="(max-width: 1023px)" srcset="./images/__item_3x (4).jpg">
+                <source media="(min-width: 1024px)" srcset="./images/__item (4).jpg">
+                <img class="photo-grid__item" src="./images/__item (4).jpg" alt="Лед">
+            </picture>
+            <picture>
+                <source media="(max-width: 1023px)" srcset="./images/__item_3x (5).jpg">
+                <source media="(min-width: 1024px)" srcset="./images/__item (5).jpg">
+                <img class="photo-grid__item" src="./images/__item (5).jpg" alt="Байкал">
+            </picture>
+            <picture>
+                <source media="(max-width: 1023px)" srcset="./images/__item_3x (6).jpg">
+                <source media="(min-width: 1024px)" srcset="./images/__item (6).jpg">
+                <img class="photo-grid__item" src="./images/__item (6).jpg" alt="Эльбрус">
+            </picture>
+            <picture>
+                <source media="(max-width: 1023px)" srcset="./images/__item_3x (7).jpg">
+                <source media="(min-width: 1024px)" srcset="./images/__item (7).jpg">
+                <img class="photo-grid__item" src="./images/__item (7).jpg" alt="Пешеходка">
+            </picture>
+            <picture>
+                <source media="(max-width: 1023px)" srcset="./images/__item_3x (8).jpg">
+                <source media="(min-width: 1024px)" srcset="./images/__item (8).jpg">
+                <img class="photo-grid__item" src="./images/__item (8).jpg" alt="Камчатка">
+            </picture>
+            <picture>
+                <source media="(max-width: 1023px)" srcset="./images/__item_3x (9).jpg">
+                <source media="(min-width: 1024px)" srcset="./images/__item (9).jpg">
+                <img class="photo-grid__item" src="./images/__item (9).jpg" alt="Камчатка2">
+            </picture>
+            <picture>
+                <source media="(max-width: 1023px)" srcset="./images/__item_3x (10).jpg">
+                <source media="(min-width: 1024px)" srcset="./images/__item (10).jpg">
+                <img class="photo-grid__item" src="./images/__item (10).jpg" alt="Байкал2">
+            </picture>
+            <picture>
+                <source media="(max-width: 1023px)" srcset="./images/__item_3x (11).jpg">
+                <source media="(min-width: 1024px)" srcset="./images/__item (11).jpg">
+                <img class="photo-grid__item" src="./images/__item (11).jpg" alt="Эргаки">
+            </picture>
         </section>
         <section class="places">
             <div class="place">
@@ -84,7 +132,11 @@
                     <p class="place__url-heading">URL</p>
                     <a class="place__link" href="#">park-kosa.ru</a>
                 </div>
-                <img class="place__image" src="./images/__image.jpg" alt="Куршская коса">
+                <picture class="place__image">
+                    <source media="(max-width: 1023px)" srcset="./images/__image_3x.jpg">
+                    <source media="(min-width: 1024px)" srcset="./images/__image.jpg">
+                    <img class="place__image" src="./images/__image.jpg" alt="Куршская коса">
+                </picture>
                 <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта
                     — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой.
                     Уникальная природная зона на краю российского анклава.</p>
@@ -99,7 +151,11 @@
                     <p class="place__url-heading">URL</p>
                     <a class="place__link" href="#">National Geographic</a>
                 </div>
-                <img class="place__image" src="./images/__image (1).jpg" alt="Кольский">
+                <picture class="place__image">
+                    <source media="(max-width: 1023px)" srcset="./images/__image_3x (1).jpg">
+                    <source media="(min-width: 1024px)" srcset="./images/__image (1).jpg">
+                    <img class="place__image" src="./images/__image (1).jpg" alt="Кольский">
+                </picture>
                 <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от
                     которой на юг —
                     тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -116,7 +172,11 @@
                     <p class="place__url-heading">URL</p>
                     <a class="place__link" href="#">Facebook</a>
                 </div>
-                <img class="place__image" src="./images/__image (2).jpg" alt="Алтай">
+                <picture class="place__image">
+                    <source media="(max-width: 1023px)" srcset="./images/__image_3x (2).jpg">
+                    <source media="(min-width: 1024px)" srcset="./images/__image (2).jpg">
+                    <img class="place__image" src="./images/__image (2).jpg" alt="Алтай">
+                </picture>
                 <p class="place__paragraph">Алтай — одно из красивейших мест в России.
                     В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные
                     реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних
@@ -131,7 +191,11 @@
                     <p class="place__url-heading">URL</p>
                     <a class="place__link" href="#">https://vk.com/baikalmile</a>
                 </div>
-                <img class="place__image" src="./images/__image (3).jpg" alt="Зимний Байкал">
+                <picture class="place__image">
+                    <source media="(max-width: 1023px)" srcset="./images/__image_3x (3).jpg">
+                    <source media="(min-width: 1024px)" srcset="./images/__image (3).jpg">
+                    <img class="place__image" src="./images/__image (3).jpg" alt="Зимний Байкал">
+                </picture>
                 <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
                     в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в
                     России.</p>
@@ -146,9 +210,17 @@
                     <p class="place__url-heading">URL</p>
                     <a class="place__link" href="#">http://vodlozero.ru/</a>
                 </div>
-                <img class="place__image" src="./images/__image (4).jpg" alt="Карелия">
-                <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. 
-                    В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья 
+                <picture class="place__image">
+                    <source media="(max-width: 1023px)" srcset="./images/__image_3x (4).jpg">
+                    <source media="(min-width: 1024px)" srcset="./images/__image (4).jpg">
+                    <img class="place__image" src="./images/__image (4).jpg" alt="Карелия">
+                </picture>
+                <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
+                    лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
+                    национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше
+                    чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван
+                    Грозный.
+                    В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
                     в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
             </div>
         </section>
