@@ -1,7 +1,6 @@
 .place__website {
     height: 46px;
     margin-bottom: 48px;
-    margin-left: 40px;
     grid-area: link;
     align-self: flex-end;
 }

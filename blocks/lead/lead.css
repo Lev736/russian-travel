@@ -1,6 +1,8 @@
 .lead {
     margin: 0 auto;
+    min-width: 320px;
     width: 76%;
+    max-width: 984px;
     display: flex;
     flex-direction: column;
     align-items: center;

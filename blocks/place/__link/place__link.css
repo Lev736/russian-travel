@@ -8,3 +8,7 @@
     letter-spacing: 0em;
     text-align: left;
 }
+
+.place__link:hover {
+    opacity: 0.8;
+}
