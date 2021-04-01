@@ -1,6 +1,6 @@
 .place__paragraph {
-    margin-top: -9vh;
-    max-width: 468px;
+    margin-top: -8vmin;
+    max-width: 484px;
     color: #fff;
     font-family: 'Inter', ‘Arial’, sans-serif;
     font-size: 18px;
@@ -18,7 +18,7 @@
 
 @media screen and (min-width: 769px) {
     .place__paragraph:nth-of-type(1) {
-        margin-top: -2vh;
+        margin-top: -2vmin;
     }
 }
 

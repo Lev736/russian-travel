@@ -1,6 +1,6 @@
 .header {
     width: 92%;
-    margin: calc(4vh - 2px) auto 0;
+    margin: 3vmin auto 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
