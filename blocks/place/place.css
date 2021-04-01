@@ -1,8 +1,8 @@
 .place {
-    margin-top: 80px;
+    margin-top: 78px;
     display: grid;
     grid-auto-flow: dense;
-    column-gap: 40px;
+    column-gap: 34px;
     grid-template-areas: "title link" "image paragraph" "image text";
 }
 
